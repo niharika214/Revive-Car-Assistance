@@ -1,0 +1,244 @@
+/* Profile.css */
+.update_profile{
+    width: 100%;
+    height: auto;
+    background-color: #61a5c2;
+    padding-bottom: 3%;
+}
+.profile_page{
+    background-color: rgba(241, 241, 241, 0.5);
+    width: 80%;
+    height: 131vh;
+    margin: 3% 0 0% 9%;
+    border: 1px solid rgb(210, 208, 208);
+    border-radius: 3rem;
+    display: flex;
+}
+.profile_left {
+    width: 80%;
+    background-color: #fff;
+    height: 101vh;
+    padding: 2rem;
+    margin: 2.8% 0 0 4.5%;
+    border: 1px solid rgb(210, 208, 208);
+    border-radius: 3rem;
+}
+.pf_pic {
+    width: 60%;
+    height: 40%;
+    margin-left: 18%;
+    border-radius: 50%; /* Make sure it's a circle */
+    overflow: hidden; /* Hide overflow to keep it circular */
+    position: relative; /* Position for absolute positioning of image */
+}
+.profile_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover entire container */
+    border-radius: 50%;
+}
+.pf_change{
+    margin-top: 4%;
+    font-size: 0.75rem;
+    text-align: center;
+}
+.my_profile{
+    text-align: center;
+    font-size: large;
+    background-color: #88bdf2;
+    text-align: left;
+    color: #fff;
+    margin-top: 9%;
+    margin-bottom: 9%;
+    padding: 1.5%;
+}
+.name_email{
+    margin-top: 6%;
+    border-bottom: 1px solid #d8d8d8;
+}
+.right_side{
+    width: 100%;
+    margin: 0 0 0 7%;
+}
+.profile_right {
+    width: 90%;
+    background-color: #fff;
+    height: 66vh;
+    margin: 6% 0 5% 0%;
+    border: 1px solid rgb(210, 208, 208);
+    border-radius: 3rem;
+}
+.pf_right_below{
+    width: 90%;
+    background-color: #fff;
+    height: 50vh;
+    margin: 4% 0 0 0%;
+    border: 1px solid rgb(210, 208, 208);
+    border-radius: 3rem;
+}
+#user_pf{
+    width: 82%;
+    margin: 6% 0 5% 8%;
+    font-size: large;
+} 
+.profile-table {
+    width: 84%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-left: 8%;
+}
+.profile-table td {
+    padding: 8px;
+    border-bottom: 1px solid #d8d8d8;
+    text-align: left;
+    position: relative;
+}
+.profile-table td input {
+    width: 80%;
+    padding: 0.3rem;
+    box-sizing: border-box;
+}
+.profile-table td:first-child {
+    font-weight: bold;
+    width: 9rem;
+}
+.password-error{
+    margin: 0 0 3% 8%;
+    color: red;
+}
+.toggle-password{
+    margin: 0% 0 0 2%;
+}
+.pf_btn{
+    height: 5vh;
+    width: 15%;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #fff;
+    border-radius: 0.31rem;
+}
+.update_passw{
+    margin: 2% 0 0 30%;
+    background-image: linear-gradient(to right, #61e153 0%, #a8e063  51%, #61e153  100%);
+    padding: 0.7rem 2.2rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;      
+    border: 1.5px solid;        
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+.update_passw:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.edit_btn {
+    background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%);
+    margin: 2% 0 0 39%;
+    padding: 0.7rem 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border: 1.5px solid;
+    border-radius: 10px;
+}
+.edit_btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+       
+.cancel_btn {
+    margin: 2% 0 0 15%;
+    background-image: linear-gradient(to right, #f03d3d 0%, #f86475  51%, #f03d3d  100%);
+    padding: 0.7rem 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;   
+    border: 1.5px solid;         
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+.cancel_btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+       
+.save_btn {
+    margin: 2% 0 0 21%;
+    background-image: linear-gradient(to right, #61e153 0%, #a8e063  51%, #61e153  100%);
+    padding: 0.7rem 2.2rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;      
+    border: 1.5px solid;        
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+.save_btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.curr_passw{
+    width: 55%;
+    height: auto;
+    display: block;
+    margin: 0.5rem 0 0 2.5rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.inp_curr_passw{
+    width: 75%;
+    height: 4vh;
+    margin: 0.2rem 0 1rem 2.5rem;
+    padding-left: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid rgb(210, 208, 208);
+}
+
+@media screen and (max-width: 768px) {
+    .edit_btn, .save_btn, .cancel_btn {
+        width: 30%;
+        margin: 1rem 0 0 1rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .edit_btn, .save_btn, .cancel_btn {
+        width: 50%; 
+        margin: 1rem 0 0 1rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .profile-table td {
+        font-size: 0.9rem; 
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .profile-table td {
+        font-size: 0.8rem; /* Further reduce font size for even smaller screens */
+        width: 40%;
+    }
+}
